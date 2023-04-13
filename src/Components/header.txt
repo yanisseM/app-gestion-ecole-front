@@ -1,0 +1,18 @@
+const Navbar = () =>{
+
+    return <header>
+        <nav>
+            <a href="App.js">
+                <img src="" alt="Logo" className="logoApp" />
+            </a>
+                <input type="text" class="searchTerm" placeholder="Recherche..."/>
+            <div>
+                <a href="">Lien1</a>
+                <a href="">Lien2</a>
+                <a href="">Lien3</a>
+            </div>
+        </nav>
+    </header>;
+}
+
+export default Navbar;

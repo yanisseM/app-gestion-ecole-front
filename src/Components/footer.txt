@@ -1,0 +1,24 @@
+const footerBar = () =>{
+    return <footer>
+                <a href="App.js">
+                    <img src="" alt="Logo" className="logoApp" />
+                </a>
+                <nav>
+                    <ul>
+                        <li><a href="">A Propos</a></li>
+                        <li><a href="">Policies</a></li> 
+                    </ul>
+                    <ul>
+                        <li><a href="">Chartes de confidentialités</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+                
+                <div>
+                <a href=""></a>
+                <a href=""></a> 
+                </div>
+    </footer>;
+}
+
+export default footerBar;
