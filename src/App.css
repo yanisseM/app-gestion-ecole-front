@@ -36,3 +36,81 @@
     transform: rotate(360deg);
   }
 }
+
+.sidebar {
+  width: 228px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  background-color: black;
+}
+
+.content {
+  margin-left: 228px;
+}
+
+.content header {
+  height: 64px;
+  background-color: #efefef;
+}
+
+.content main {
+  min-height: calc(100vh - 64px);
+  padding: 24px;
+}
+
+.content footer {
+  height: 128px;
+  background-color: #efefef;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.searchTerm{
+  width: 45%;
+  border: 3px solid black;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 5px 5px 5px;
+  outline: none;
+  color: black;
+
+}
+
+div{
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  font-size: 15px;
+}
+
+nav a {
+  margin-left: 30px;
+  color: black;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+a{
+  font-size: 20px;
+  color:black;
+  text-decoration: none;
+}
+
+.logoApp{
+  width: 70px;
+}
+
+
+
+ul{
+  margin-right: 150px;
+}
